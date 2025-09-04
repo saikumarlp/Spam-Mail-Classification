@@ -8,7 +8,7 @@ To Avoid this the Machine Learning models come into the Picture.
 </p>
 <h2> How to Run the Code</h2>
 <p>
-  To Run the code simply clone the repositry in vs code and clean the data(as the data is cleaned) after that simply run all the cells in Spam.py(suggested to download all the packages using pip command) after that go terminal and type streamlit run stream.py
+  To Run the code simply clone the repositry in vs code after that simply run the main.py to download the model and than move to stream.py file and run (suggested to download all the packages using pip command) using the command in terminal and type streamlit run stream.py
 </p>
 <h3>UI UX</h3>
 <p>Based on Requirement create your own Ui using streamlit </p>
