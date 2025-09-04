@@ -15,10 +15,11 @@ def main():
             print(data)
             vec = cv.transform(data).toarray()
             result = model.predict(vec)
-            if result[0] == 0:
+            if result[0] == "ham":
                 st.success("This is Not A Spam Email")
             else:
                 st.error("Caution!!!" "This is A Spam Mail")
         else:
             st.write("Please Enter an Email to Classify..")
+
 main()
