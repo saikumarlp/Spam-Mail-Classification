@@ -8,7 +8,7 @@ def main():
     st.title("Email Spam Classification Application")
     st.write("This is a Machine Learning application to classify emails as spam or ham.. ")
     st.subheader("Classification")
-    user_input = st.text_area("Enter an Email Classify",height=150)
+    user_input = st.text_area("Enter an Email to Classify ",height=150)
     if st.button("Classify"):
         if user_input:
             data = [user_input]
@@ -23,3 +23,4 @@ def main():
             st.write("Please Enter an Email to Classify..")
 
 main()
+
